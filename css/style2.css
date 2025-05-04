@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+  }
+
+  .navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    margin-left: 20px;
+  }
+
+  .carousel-caption {
+    bottom: 40%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #000;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    text-shadow: 1px 1px 4px #000;
+  }
+
+  .btn-custom {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .btn-custom:hover {
+    background-color: #fff;
+    color: #800000;
+  }
+
+  .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(65%);
+  }
